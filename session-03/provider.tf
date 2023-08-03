@@ -5,12 +5,12 @@ terraform {
       version = "4.64.0"
     }
   }
-  backend "s3" {
-    bucket = "statelock461"
-    key    = "timing"
-    region = "ap-south-1"
-    dynamodb_table = "slterraform461"
-  }
+ # backend "s3" {
+    #bucket = "statelock461"
+    #key    = "timing"
+    #region = "ap-south-1"
+    ##dynamodb_table = "slterraform461"
+  #}
 }
 
 # Configure the AWS Provider
